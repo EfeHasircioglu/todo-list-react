@@ -22,11 +22,6 @@ function App() {
       return [];
     }
   });
-  //! DEBUG
-  useEffect(() => {
-    console.log(filterMode);
-  }, [filterMode]);
-  const [isTaskMenuOpen, setIsTaskMenuOpen] = useState(false);
 
   // Save tasks to localStorage whenever tasks change
   useEffect(() => {
